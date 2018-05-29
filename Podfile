@@ -6,11 +6,7 @@ target 'Greeter' do
   use_frameworks!
 
 
-  pod 'BakedPotato', :git => 'https://github.com/synesthesia-it/Boomerang.gitffffffffffff'
-  pod 'BakedPotato1', :git => 'https://github.com/synesthesia-it/Boomerang.gitffffffffffffhurhfurhuf'
-  pod 'BakedPotato2', :git => 'https://github.com/synesthesia-it/Boomerang.gitfjfirjfijrifffffffffff'
-  pod 'BakedPotato3', :git => 'https://github.com/synesthesia-it/Boomerang.gitffffffff'
-  pod 'BakedPotato4', :git => 'https://github.com/synesthesia-it/Boomerang.gitfffffff'
+  pod 'BakedPotato', :git => 'git@bitbucket.org:buddybuildbot/no-comits.git'
 
   target 'GreeterTests' do
     inherit! :search_paths
