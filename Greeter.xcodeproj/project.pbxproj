@@ -14,6 +14,8 @@
 		7AF065182048A44300C47059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF065162048A44300C47059 /* LaunchScreen.storyboard */; };
 		7AF065232048A44400C47059 /* GreeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF065222048A44400C47059 /* GreeterTests.swift */; };
 		7AF0652E2048A45600C47059 /* Greeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0652D2048A45600C47059 /* Greeter.swift */; };
+		B9F39151D711605747BD3E95 /* Pods_Greeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC36036EF55D75E32640A49 /* Pods_Greeter.framework */; };
+		E90A40225D9164777E431F8C /* Pods_GreeterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742107EE5F347445782EEB45 /* Pods_GreeterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AC36036EF55D75E32640A49 /* Pods_Greeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9135244BB317E6704C9CE1 /* Pods-Greeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greeter/Pods-Greeter.debug.xcconfig"; sourceTree = "<group>"; };
+		329DDDBE5EAAC167A451E4EB /* Pods-Greeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greeter/Pods-Greeter.release.xcconfig"; sourceTree = "<group>"; };
+		742107EE5F347445782EEB45 /* Pods_GreeterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF0650A2048A44300C47059 /* Greeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF0650D2048A44300C47059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AF0650F2048A44300C47059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		7AF065222048A44400C47059 /* GreeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeterTests.swift; sourceTree = "<group>"; };
 		7AF065242048A44400C47059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AF0652D2048A45600C47059 /* Greeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeter.swift; sourceTree = "<group>"; };
+		99B801C106418ADB7417F828 /* Pods-GreeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreeterTests/Pods-GreeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF924BE84406216ADECA4104 /* Pods-GreeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeterTests/Pods-GreeterTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F39151D711605747BD3E95 /* Pods_Greeter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90A40225D9164777E431F8C /* Pods_GreeterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B192F240568012A219D6F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F9135244BB317E6704C9CE1 /* Pods-Greeter.debug.xcconfig */,
+				329DDDBE5EAAC167A451E4EB /* Pods-Greeter.release.xcconfig */,
+				CF924BE84406216ADECA4104 /* Pods-GreeterTests.debug.xcconfig */,
+				99B801C106418ADB7417F828 /* Pods-GreeterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7AF065012048A44300C47059 = {
 			isa = PBXGroup;
 			children = (
 				7AF0650C2048A44300C47059 /* Greeter */,
 				7AF065212048A44400C47059 /* GreeterTests */,
 				7AF0650B2048A44300C47059 /* Products */,
+				47B192F240568012A219D6F4 /* Pods */,
+				984C05FD5FB977404ABA444F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,15 @@
 			path = GreeterTests;
 			sourceTree = "<group>";
 		};
+		984C05FD5FB977404ABA444F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC36036EF55D75E32640A49 /* Pods_Greeter.framework */,
+				742107EE5F347445782EEB45 /* Pods_GreeterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF065272048A44400C47059 /* Build configuration list for PBXNativeTarget "Greeter" */;
 			buildPhases = (
+				62AD1DA1D67AFCECFD55A5C7 /* [CP] Check Pods Manifest.lock */,
 				7AF065062048A44300C47059 /* Sources */,
 				7AF065072048A44300C47059 /* Frameworks */,
 				7AF065082048A44300C47059 /* Resources */,
+				92EDD7F10CDE3D7C86A9E4DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF0652A2048A44400C47059 /* Build configuration list for PBXNativeTarget "GreeterTests" */;
 			buildPhases = (
+				CF14F760B91557295A810ABF /* [CP] Check Pods Manifest.lock */,
 				7AF0651A2048A44400C47059 /* Sources */,
 				7AF0651B2048A44400C47059 /* Frameworks */,
 				7AF0651C2048A44400C47059 /* Resources */,
@@ -196,6 +231,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62AD1DA1D67AFCECFD55A5C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Greeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EDD7F10CDE3D7C86A9E4DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Greeter/Pods-Greeter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greeter/Pods-Greeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF14F760B91557295A810ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreeterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7AF065062048A44300C47059 /* Sources */ = {
@@ -355,6 +447,7 @@
 		};
 		7AF065282048A44400C47059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9135244BB317E6704C9CE1 /* Pods-Greeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +463,7 @@
 		};
 		7AF065292048A44400C47059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329DDDBE5EAAC167A451E4EB /* Pods-Greeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +479,7 @@
 		};
 		7AF0652B2048A44400C47059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF924BE84406216ADECA4104 /* Pods-GreeterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +497,7 @@
 		};
 		7AF0652C2048A44400C47059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B801C106418ADB7417F828 /* Pods-GreeterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
