@@ -1,0 +1,16 @@
+PODS:
+  - Fabric (1.7.6)
+
+DEPENDENCIES:
+  - Fabric (~> 1.7)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Fabric
+
+SPEC CHECKSUMS:
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+
+PODFILE CHECKSUM: 6a61b17e0367c173f8505f1901076f138c4e190d
+
+COCOAPODS: 1.5.0
