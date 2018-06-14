@@ -22,6 +22,8 @@ class GreeterKitTests: XCTestCase {
     }
     
     func testExample() {
+        var something: String! = nil
         XCTAssertEqual("a", "b")
+        XCTAssertEqual(something, "b")
     }
 }
