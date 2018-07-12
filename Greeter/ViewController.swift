@@ -11,20 +11,9 @@ import BuddyBuildSDK
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func crashTheApp(_ sender: Any) {
+        fatalError("Crashing the app")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func boom(_ sender: Any) {
-        fatalError("Crash with a different reason!")
-    }
-
 
 }
 
