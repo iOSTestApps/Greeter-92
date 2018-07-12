@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func boom(_ sender: Any) {
-        BuddyBuildSDK.crash()
+        fatalError("Crash with a different reason!")
     }
 
 
