@@ -12,7 +12,15 @@ import BuddyBuildSDK
 class ViewController: UIViewController {
 
     @IBAction func crashTheApp(_ sender: Any) {
-        fatalError("Crashing the app")
+        let something: String! = nil
+
+        let controller = UIAlertController(title: something, message: "boom", preferredStyle: .alert)
+        present(controller, animated: true, completion: nil)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            let content: String = "Boom" + something
+            print("boon = \(content)")
+        }
     }
 
 }
