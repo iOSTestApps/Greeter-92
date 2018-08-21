@@ -21,6 +21,9 @@ class ViewController: UIViewController {
             let content: String = "Boom" + something
             print("boon = \(content)")
         }
+
+        let spinner = UIActivityIndicatorView(style: .gray)
+        spinner.startAnimating()
     }
 
 }
