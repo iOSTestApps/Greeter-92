@@ -17,7 +17,8 @@ CC_FILE=$(find "/tmp/sandbox/$BUDDYBUILD_BUILD_ID" -name "action.xccovreport")
 export CC_DIRECTORY=$(dirname "$CC_FILE")
 
 echo "Code coverage file: $CC_FILE"
-printenv | grep CC_FILE
+echo "Code coverage directory: $CC_DIRECTORY"
+printenv | grep CC_
 
 echo "Doing the danger stuf..."
 
