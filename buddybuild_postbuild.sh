@@ -13,7 +13,9 @@ look "$BUDDYBUILD_TEST_DIR"
 
 look "/tmp/sandbox/$BUDDYBUILD_BUILD_ID"
 
-export CC_FILE=`find "/tmp/sandbox/$BUDDYBUILD_BUILD_ID" -name "action.xccovreport"`
+CC_FILE=$(find "/tmp/sandbox/$BUDDYBUILD_BUILD_ID" -name "action.xccovreport")
+export CC_DIRECTORY=$(dirname "$CC_FILE")
+
 echo "Code coverage file: $CC_FILE"
 printenv | grep CC_FILE
 
