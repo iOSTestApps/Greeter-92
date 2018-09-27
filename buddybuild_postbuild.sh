@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-printenv | grep BUDDYBUILD
+# Install gems locally
+bundle install --quiet
 
-ls -hal $BUDDYBUILD_WORKSPACE
+bundle exec danger --fail-on-errors=true --verbose
