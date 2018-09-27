@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function look {
-    echo "Looking for coverage files in $BUDDYBUILD_TEST_DIR"
+    echo "Looking for coverage files in $1"
     echo "xccoverage:"
     find "$1" -name "*.xccoverage"
 
