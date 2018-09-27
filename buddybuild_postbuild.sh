@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 
-echo "Looking for coverage files in $BUDDYBUILD_TEST_DIR"
-echo "xccoverage:"
-find "$BUDDYBUILD_TEST_DIR" -name "*.xccoverage"
+function look {
+    echo "Looking for coverage files in $BUDDYBUILD_TEST_DIR"
+    echo "xccoverage:"
+    find "$1" -name "*.xccoverage"
 
-echo "xccovreport:"
-find "$BUDDYBUILD_TEST_DIR" -name "*.xccovreport"
+    echo "xccovreport:"
+    find "$1" -name "*.xccovreport"
+}
 
-echo "Looking for coverage files for app $BUDDYBUILD_APP_ID"
-echo "xccoverage:"
-find "/tmp/sandbox/$BUDDYBUILD_APP_ID" -name "*.xccoverage"
+look "$BUDDYBUILD_TEST_DIR"
 
-echo "xccovreport:"
-find "/tmp/sandbox/$BUDDYBUILD_APP_ID" -name "*.xccovreport"
+look "/tmp/sandbox/$BUDDYBUILD_BUILD_ID"
 
 echo "Doing the danger stuf..."
 
