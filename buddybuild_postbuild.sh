@@ -13,6 +13,10 @@ look "$BUDDYBUILD_TEST_DIR"
 
 look "/tmp/sandbox/$BUDDYBUILD_BUILD_ID"
 
+export CC_FILE=`find "/tmp/sandbox/$BUDDYBUILD_BUILD_ID" -name "action.xccovreport"`
+echo "Code coverage file: $CC_FILE"
+printenv | grep CC_FILE
+
 echo "Doing the danger stuf..."
 
 # Install gems locally
