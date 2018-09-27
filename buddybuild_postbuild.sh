@@ -25,7 +25,7 @@
 echo "Trying something dumb..."
 mkdir -p "$BUDDYBUILD_WORKSPACE/CC/Logs/Test/"
 find "/tmp/sandbox/$BUDDYBUILD_BUILD_ID" -name "action.xccovreport" -exec cp {} "$BUDDYBUILD_WORKSPACE/CC/Logs/Test/" \;
-find "$BUDDYBUILD_WORKSPACE/CC/Logs/Test/" -type -f
+find "$BUDDYBUILD_WORKSPACE/CC/Logs/Test/" -type f
 
 # Install gems locally
 bundle install --quiet
