@@ -17,4 +17,10 @@ class GreeterTests: XCTestCase {
         XCTAssertEqual(g.greet(other: "Francis"), "Hello Francis, I am Romain!")
     }
 
+
+    func testBeingNice() {
+        let g = Greeter(name: "Romain")
+        XCTAssertEqual(g.greet(other: "Martin"), "Hello Martin, I am Romain! You're nice!")
+    }
+
 }

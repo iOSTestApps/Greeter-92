@@ -14,5 +14,10 @@ struct Greeter {
     func greet(other otherName: String) -> String {
         return "Hello \(otherName), I am \(name)!"
     }
-    
+
+
+    func greetAndBeNice(other otherName: String) -> String {
+        return "Hello \(otherName), I am \(name)! You're nice!"
+    }
+
 }
