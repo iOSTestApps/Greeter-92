@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     @IBAction func crashTheApp(_ sender: Any) {
         let something: String! = nil
 
+        let dangerous: Int? = nil
+        let deadly = 5 + dangerous!
+        print(deadly)
+        
         let controller = UIAlertController(title: something, message: "boom", preferredStyle: .alert)
         present(controller, animated: true, completion: nil)
 
