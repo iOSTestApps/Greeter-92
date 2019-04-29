@@ -33,7 +33,7 @@ class GreeterUITests: XCTestCase {
         let app = XCUIApplication()
         app.buttons["Click Me!"].tap()
 
-        XCTAssertTrue(app.staticTexts["Label"].exists)
+        XCTAssertTrue(app.staticTexts["Label tgat does not exist"].exists)
     }
     
 }
