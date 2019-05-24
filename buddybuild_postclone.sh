@@ -1,3 +1,4 @@
 #!/bin/bash
 
-ls -hal $BUDDYBUILD_WORKSPACE
+cd $BUDDYBUILD_WORKSPACE
+ls -hal 
