@@ -13,7 +13,7 @@
 		46D7195F4E1F41D310A3B7FB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D60263D28DC5D72061ED2B /* CoreTelephony.framework */; };
 		4F0DD9A9D2FCA71EF83DA353 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43788A4BE5429E85777D84A /* CoreVideo.framework */; };
 		78C72D9B328D44C70BB244F6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A821BACDEBF8D10A0ABBBF /* CoreMedia.framework */; };
-		7A26407A20D2DB7400D231CA /* GreeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26407920D2DB7400D231CA /* GreeterUITests.swift */; };
+		7A26407A20D2DB7400D231CA /* SolarSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26407920D2DB7400D231CA /* SolarSystemUITests.swift */; };
 		7A26408F20D2DB8700D231CA /* GreeterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A26408620D2DB8700D231CA /* GreeterKit.framework */; };
 		7A26409620D2DB8700D231CA /* GreeterKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26409520D2DB8700D231CA /* GreeterKitTests.swift */; };
 		7A26409820D2DB8700D231CA /* GreeterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A26408820D2DB8700D231CA /* GreeterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,7 +90,7 @@
 		1B05D52660E43AC9CB7C017C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		77E1FFA865D97B8C1B41EBDA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7A26407720D2DB7400D231CA /* GreeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A26407920D2DB7400D231CA /* GreeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeterUITests.swift; sourceTree = "<group>"; };
+		7A26407920D2DB7400D231CA /* SolarSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemUITests.swift; sourceTree = "<group>"; };
 		7A26407B20D2DB7400D231CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A26408620D2DB8700D231CA /* GreeterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GreeterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A26408820D2DB8700D231CA /* GreeterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreeterKit.h; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		7A26407820D2DB7400D231CA /* GreeterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7A26407920D2DB7400D231CA /* GreeterUITests.swift */,
+				7A26407920D2DB7400D231CA /* SolarSystemUITests.swift */,
 				7A26407B20D2DB7400D231CA /* Info.plist */,
 			);
 			path = GreeterUITests;
@@ -467,7 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A26407A20D2DB7400D231CA /* GreeterUITests.swift in Sources */,
+				7A26407A20D2DB7400D231CA /* SolarSystemUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

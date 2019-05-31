@@ -11,16 +11,12 @@ import BuddyBuildSDK
 
 class ViewController: UIViewController {
 
-    @IBAction func crashTheApp(_ sender: Any) {
-        let something: String! = nil
+    private let startButton = UIButton(type: .system)
 
-        let controller = UIAlertController(title: something, message: "boom", preferredStyle: .alert)
-        present(controller, animated: true, completion: nil)
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            let content: String = "Boom" + something
-            print("boon = \(content)")
-        }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
     }
 
 }
