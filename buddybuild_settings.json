@@ -1,0 +1,4 @@
+{
+    "xcode_include_destination": true,
+    "override_destination": "generic/platform=iOS"
+}
