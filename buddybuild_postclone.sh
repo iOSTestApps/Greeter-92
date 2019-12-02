@@ -1,6 +1,7 @@
 #!/bin/bash
 
 brew update
+brew install git-crypt
 
 cd $BUDDYBUILD_WORKSPACE
 ls -hal
