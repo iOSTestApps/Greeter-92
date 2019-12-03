@@ -1,15 +1,11 @@
 #!/bin/bash
 
-aws
-
-brew update
+brew update && brew upgrade
 brew install git-crypt
 
 aws
 
-brew reinstall awscli
-
-aws
+wget
 
 cd $BUDDYBUILD_WORKSPACE
 ls -hal
