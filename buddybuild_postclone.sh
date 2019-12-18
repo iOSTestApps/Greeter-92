@@ -1,8 +1,8 @@
 #!/bin/bash
 
 chruby 2.5.1
-gem install bundler
-bundle install  
+gem install bundler -v '1.17.3'
+bundle install
 bundle exec danger --fail-on-errors=true
 
 cd $BUDDYBUILD_WORKSPACE
@@ -16,5 +16,5 @@ yarn -v
 which node
 node -v
 
-which npm 
+which npm
 npm -v
