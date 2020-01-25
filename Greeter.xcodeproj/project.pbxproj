@@ -28,6 +28,7 @@
 		7AF0652E2048A45600C47059 /* Greeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0652D2048A45600C47059 /* Greeter.swift */; };
 		86279B4E17E6EC609203D67F /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052C4F7F108331C6563FBDF0 /* BuddyBuildSDK.framework */; };
 		9A4F3C9EC5DBC391D066A510 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE98422374D75893770F02B4 /* AVFoundation.framework */; };
+		AF4FCEDCE8A4BB9E2C3997B8 /* libPods-Greeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F90CA652092C3877A40BE09 /* libPods-Greeter.a */; };
 		D03EBB4DB8AAEB55BFCFA0A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8426960A7EB2503ECFB131 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,8 @@
 		05D60263D28DC5D72061ED2B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		19A821BACDEBF8D10A0ABBBF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		1B05D52660E43AC9CB7C017C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1F90CA652092C3877A40BE09 /* libPods-Greeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Greeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0B7F3BFEE4074B317DFF8F /* Pods-Greeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeter.debug.xcconfig"; path = "Target Support Files/Pods-Greeter/Pods-Greeter.debug.xcconfig"; sourceTree = "<group>"; };
 		77E1FFA865D97B8C1B41EBDA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7A26407720D2DB7400D231CA /* GreeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A26407920D2DB7400D231CA /* SolarSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemUITests.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 		7AF065242048A44400C47059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AF0652D2048A45600C47059 /* Greeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeter.swift; sourceTree = "<group>"; };
 		B43788A4BE5429E85777D84A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C37A41E96E3D0A21FAA9CB34 /* Pods-Greeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeter.release.xcconfig"; path = "Target Support Files/Pods-Greeter/Pods-Greeter.release.xcconfig"; sourceTree = "<group>"; };
 		CA8426960A7EB2503ECFB131 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D4CD93BF198A507D9960DC3A /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		DADE6EFBA07735041FA4A08B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -153,6 +157,7 @@
 				9A4F3C9EC5DBC391D066A510 /* AVFoundation.framework in Frameworks */,
 				78C72D9B328D44C70BB244F6 /* CoreMedia.framework in Frameworks */,
 				4F0DD9A9D2FCA71EF83DA353 /* CoreVideo.framework in Frameworks */,
+				AF4FCEDCE8A4BB9E2C3997B8 /* libPods-Greeter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +171,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22266415046704070EE9B11F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C0B7F3BFEE4074B317DFF8F /* Pods-Greeter.debug.xcconfig */,
+				C37A41E96E3D0A21FAA9CB34 /* Pods-Greeter.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5DEC364F78DF9EEF2E90658A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +193,7 @@
 				EE98422374D75893770F02B4 /* AVFoundation.framework */,
 				19A821BACDEBF8D10A0ABBBF /* CoreMedia.framework */,
 				B43788A4BE5429E85777D84A /* CoreVideo.framework */,
+				1F90CA652092C3877A40BE09 /* libPods-Greeter.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +236,7 @@
 				7AF0650B2048A44300C47059 /* Products */,
 				5DEC364F78DF9EEF2E90658A /* Frameworks */,
 				D4CD93BF198A507D9960DC3A /* Bridging-Header.h */,
+				22266415046704070EE9B11F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -331,6 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF065272048A44400C47059 /* Build configuration list for PBXNativeTarget "Greeter" */;
 			buildPhases = (
+				BCC7B30D0A249A5C34DEC892 /* [CP] Check Pods Manifest.lock */,
 				7AF065062048A44300C47059 /* Sources */,
 				7AF065072048A44300C47059 /* Frameworks */,
 				7AF065082048A44300C47059 /* Resources */,
@@ -461,6 +479,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCC7B30D0A249A5C34DEC892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Greeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A26407320D2DB7400D231CA /* Sources */ = {
@@ -789,6 +832,7 @@
 		};
 		7AF065282048A44400C47059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0B7F3BFEE4074B317DFF8F /* Pods-Greeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
@@ -810,6 +854,7 @@
 		};
 		7AF065292048A44400C47059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37A41E96E3D0A21FAA9CB34 /* Pods-Greeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";

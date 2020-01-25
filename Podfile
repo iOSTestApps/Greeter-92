@@ -1,0 +1,2 @@
+target 'Greeter'
+pod 'Alamofire'
