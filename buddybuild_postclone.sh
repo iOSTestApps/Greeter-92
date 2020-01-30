@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pod repo update
+
 cd $BUDDYBUILD_WORKSPACE
 ls -hal
 git --version
