@@ -1,7 +1,8 @@
 #!/bin/bash
 
 gem env
-chruby system
+chruby 2.6.3
+chruby
 pod repo update
 
 cd $BUDDYBUILD_WORKSPACE
