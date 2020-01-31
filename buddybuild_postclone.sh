@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gem env
+
 pod repo update
 
 cd $BUDDYBUILD_WORKSPACE
