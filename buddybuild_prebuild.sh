@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/bash -e
+
+chruby 2.6.3
+chruby
 
 which yarn
 yarn -v

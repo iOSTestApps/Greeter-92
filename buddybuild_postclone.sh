@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/bash -e
 
+chruby 2.6.3
 chruby
 gem env
 #pod repo update
