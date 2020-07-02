@@ -11,5 +11,7 @@ yarn -v
 which node
 node -v
 
-which npm 
+which npm
 npm -v
+
+defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
