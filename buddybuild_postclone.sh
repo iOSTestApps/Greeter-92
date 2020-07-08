@@ -19,4 +19,5 @@ defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
 rm Podfile.lock
 
 #echo password | sudo
+chruby 2.6.2
 gem install cocoapods --user-install
