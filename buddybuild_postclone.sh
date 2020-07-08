@@ -17,4 +17,5 @@ npm -v
 defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
 
 echo "Run a dummy pod command:"
-pod outdated
+bundle install
+bundle exec pod outdated
