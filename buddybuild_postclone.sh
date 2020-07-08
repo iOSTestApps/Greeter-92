@@ -17,5 +17,4 @@ npm -v
 defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
 
 echo "Run a dummy pod command:"
-bundle install
-bundle exec pod outdated
+echo password | sudo gem install cocoapods
