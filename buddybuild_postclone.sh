@@ -18,4 +18,4 @@ defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
 
 rm Podfile.lock
 
-gem install --user-install
+echo password | sudo gem install --user-install
