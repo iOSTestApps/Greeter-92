@@ -10,8 +10,8 @@ ls -hal
 git --version
 #hdiutil verify iOS-12-Sketch.dmg
 
-which yarn
-yarn -v
+# which yarn
+# yarn -v
 
 which node
 node -v
