@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# rm Podfile.lock
+rm Podfile.lock
 
 # #echo password | sudo
 # chruby 2.6.2
