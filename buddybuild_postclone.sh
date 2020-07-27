@@ -1,25 +1,9 @@
 #!/bin/bash
 
-cd $BUDDYBUILD_WORKSPACE
-ls -hal
-git --version
-hdiutil verify iOS-12-Sketch.dmg
+# rm Podfile.lock
 
-which yarn
-yarn -v
+# #echo password | sudo
+# chruby 2.6.2
+# gem install cocoapods --user-install
 
-which node
-node -v
-
-which npm
-npm -v
-
-defaults write com.apple.dt.Xcode DVTEnableLaunchServicesLauncher NO
-
-rm Podfile.lock
-
-#echo password | sudo
-chruby 2.6.2
-gem install cocoapods --user-install
-
-pod install
+# pod install
