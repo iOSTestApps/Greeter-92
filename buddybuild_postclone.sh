@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ruby -v
+
 rm Podfile.lock
 
 # #echo password | sudo
